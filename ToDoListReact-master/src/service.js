@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // 1. הגדרת כתובת ברירת מחדל
-axios.defaults.baseURL = "http://localhost:5233";
+axios.defaults.baseURL = "https://todo-list-server-gdnl.onrender.com";
 axios.defaults.headers.common['Accept'] = 'application/json';
 
 // 2. הוספת interceptor לשגיאות
